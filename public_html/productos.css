@@ -1,0 +1,23 @@
+.container#alimentos
+{
+    margin-top: 150px;
+}
+.container
+{
+    width:100%;
+}
+.container-productos
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 8px black;
+    margin-bottom: 10px;
+    padding:20px;
+}
+.img-responsive
+{
+    height: 30vh;
+    width: 100%;
+}
