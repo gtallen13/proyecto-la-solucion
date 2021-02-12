@@ -1,0 +1,10 @@
+
+.center-container
+{
+    margin: 50px 0 50px 0;
+}
+.center-container p
+{
+    margin: 0 auto;
+    width:50%;
+}
