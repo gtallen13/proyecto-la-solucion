@@ -1,8 +1,10 @@
-.categorias .img-responsive 
-{
-    height: 250px;
-    width: 400px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    box-shadow: 1px 1px 6px black;
+.categorias .img-responsive {
+  height: 250px;
+  width: 400px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 6px black;
+}
+.h-90 {
+  height: 90vh;
 }
