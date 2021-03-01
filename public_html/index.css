@@ -8,3 +8,11 @@
 .h-90 {
   height: 90vh;
 }
+.card {
+  margin-bottom: 10px;
+  border: 0px;
+  box-shadow: 2px 2px 6px black;
+}
+.card-img {
+  height: 300px;
+}
