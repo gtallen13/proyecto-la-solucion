@@ -18,10 +18,12 @@
   height: 300px;
 }
 .card-img-overlay {
-  transform: translateY(100%);
+  transform: translateX(100%);
   transition: all 0.5s;
   background-color: rgba(0, 0, 0, 0.6);
+  visibility: hidden;
 }
 .card:hover .card-img-overlay {
-  transform: translateY(0);
+  transform: translateX(0);
+  visibility: visible;
 }
