@@ -1,0 +1,64 @@
+#navbar{
+    height: 100px;
+    background-color: #4EA93B;
+    display: flex;
+    color: white;
+    font-family: 'Microsoft YaHei Ui';
+}
+.btn-primary, .btn-secondary, .btn-success, .btn-warning, .btn-danger{
+    font-size: 30px;
+    border-radius: 50px;
+    color: white;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: #4EA93B;
+    border: none;
+    box-shadow: 0px 3px 6px #0000003f;
+    margin-top: 25px;
+}
+/*Inicio*/
+.btn-warning{
+    margin-left: 72px;
+    padding-left: 13px;
+    padding-right: 12px;
+}
+/*Productos*/
+.btn-secondary{
+    margin-left: 16px;
+    padding-left: 37px;
+    padding-right: 37px;
+}
+/*Blog*/
+.btn-success{
+    margin-left: 16px;
+    padding-left: 19px;
+    padding-right: 18px;
+}
+/*Acercade*/
+.btn-primary{
+    margin-left: 448px;
+    padding-left: 40px;
+    padding-right: 39px;
+}
+/*Registrarse*/
+.btn-danger{
+    margin-left: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+.btn-warning:hover, .btn-secondary:hover,.btn-success:hover, .btn-primary:hover, .btn-danger:hover{
+    color: white;
+    background-color: #FFC107;
+}
+#titulo{
+    margin-left: 122px;
+    margin-top: 35px;
+    font-size: 30px;
+}
+#active{
+    background-color: #FFC107;
+    /*text-decoration: underline white;*/
+}
+
+
