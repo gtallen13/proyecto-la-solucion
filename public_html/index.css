@@ -21,9 +21,9 @@
   transform: translateX(100%);
   transition: all 0.5s;
   background-color: rgba(0, 0, 0, 0.6);
-  visibility: hidden;
+  display: none;
 }
 .card:hover .card-img-overlay {
   transform: translateX(0);
-  visibility: visible;
+  display: flex;
 }
