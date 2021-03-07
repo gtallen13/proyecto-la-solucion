@@ -1,64 +1,88 @@
-#navbar{
-    height: 100px;
-    background-color: #4EA93B;
-    display: flex;
-    color: white;
-    font-family: 'Microsoft YaHei Ui';
+#navbar {
+  height: 100px;
+  background-color: #4ea93b;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-family: "Microsoft YaHei Ui";
+  position: relative;
 }
-.btn-primary, .btn-secondary, .btn-success, .btn-warning, .btn-danger{
-    font-size: 30px;
-    border-radius: 50px;
-    color: white;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    background-color: #4EA93B;
-    border: none;
-    box-shadow: 0px 3px 6px #0000003f;
-    margin-top: 25px;
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: white;
+}
+.navbar-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 0;
+}
+.navbar-left {
+  padding: 0;
+  float: left;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.btn-primary,
+.btn-secondary,
+.btn-success,
+.btn-warning,
+.btn-danger {
+  font-size: 20px;
+  border-radius: 50px;
+  color: white;
+  background-color: #4ea93b;
+  border: none;
+  box-shadow: 0px 3px 6px #0000003f;
 }
 /*Inicio*/
-.btn-warning{
-    margin-left: 72px;
-    padding-left: 13px;
-    padding-right: 12px;
+.btn-warning {
+  padding-left: 13px;
+  padding-right: 12px;
 }
 /*Productos*/
-.btn-secondary{
-    margin-left: 16px;
-    padding-left: 37px;
-    padding-right: 37px;
+.btn-secondary {
+  margin-left: 16px;
+  padding-left: 37px;
+  padding-right: 37px;
 }
 /*Blog*/
-.btn-success{
-    margin-left: 16px;
-    padding-left: 19px;
-    padding-right: 18px;
+.btn-success {
+  margin-left: 16px;
+  padding-left: 19px;
+  padding-right: 18px;
 }
 /*Acercade*/
-.btn-primary{
-    margin-left: 448px;
-    padding-left: 40px;
-    padding-right: 39px;
+.btn-primary {
+  padding-left: 40px;
+  padding-right: 39px;
 }
 /*Registrarse*/
-.btn-danger{
-    margin-left: 16px;
-    padding-left: 30px;
-    padding-right: 30px;
-
+.btn-danger {
+  margin-left: 16px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
-.btn-warning:hover, .btn-secondary:hover,.btn-success:hover, .btn-primary:hover, .btn-danger:hover{
-    color: white;
-    background-color: #FFC107;
+.btn-warning:hover,
+.btn-secondary:hover,
+.btn-success:hover,
+.btn-primary:hover,
+.btn-danger:hover {
+  color: white;
+  background-color: #ffc107;
 }
-#titulo{
-    margin-left: 122px;
-    margin-top: 35px;
-    font-size: 30px;
+#titulo {
+  width: 40%;
+  margin-left: 10px;
+  font-size: 30px;
 }
-#active{
-    background-color: #FFC107;
-    /*text-decoration: underline white;*/
+#active {
+  background-color: #ffc107;
+  /*text-decoration: underline white;*/
 }
-
-
