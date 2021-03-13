@@ -8,8 +8,14 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
             integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <link rel="stylesheet" href="{{ URL::asset('./css/acercaDe.css') }}">        
+        <link rel="stylesheet" href="{{ URL::asset('./css/contactanos.css') }}">        
         <link rel="stylesheet" href="{{ URL::asset('./css/header.css') }}">        
         <link rel="stylesheet" href="{{ URL::asset('./css/footer.css') }}">        
+        <link rel="stylesheet" href="{{ URL::asset('./css/index.css') }}">
+        <link rel="stylesheet" href="{{ URL::asset('./css/registro.css') }}">
+        <link rel="stylesheet" href="{{ URL::asset('./css/registrarse.css') }}">
+        @yield('productosEstilo')
     </head>
     <body>
         <!-- Fixed navbar -->
@@ -17,11 +23,11 @@
             <input id="nav-toggle" type="checkbox">
             <h1 id="titulo">La Solución</h1>
             <ul class="navbarul" id="links">
-                <li><button type="button" id="active" class="btn btn-warning"><a href="./index.html">Inicio</a></button></li>
-                <li><button type="button" class="btn btn-secondary"><a href="./productos.html">Productos</a></button></li>
-                <li><button type="button" class="btn btn-success"><a href="./blog.html">Blog</a></button></li>
-                <li><button type="button" class="btn btn-primary"><a href="./acercade.html"> Acerca De</a></button></li>
-                <li><button type="button" class="btn btn-danger"><a href="./registro.html">Registrarse</a></button></li>
+                <li><button type="button" @yield('activeInicio') class="btn btn-warning"><a href="/">Inicio</a></button></li>
+                <li><button type="button" @yield('activeProductos') class="btn btn-secondary"><a href="{{url('productos')}}">Productos</a></button></li>
+                <li><button type="button" @yield('activeBlog') class="btn btn-success"><a href="#">Blog</a></button></li>
+                <li><button type="button" @yield('activeAcercaDe') class="btn btn-primary"><a href="{{url('acercaDe')}}"> Acerca De</a></button></li>
+                <li><button type="button" @yield('activeRegistro') class="btn btn-danger"><a href="{{url('registro')}}">Registrarse</a></button></li>
             </ul>
             <label for="nav-toggle" class="icon-burger">
                 <div class="line"></div>
@@ -95,5 +101,11 @@
                 © 2021 Copyright
             </div>
         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+        crossorigin="anonymous"></script>
     </body>
 </html>

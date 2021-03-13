@@ -1,44 +1,45 @@
 @extends('plantilla')
 @section('titulo','Inicio')
+@section('activeInicio','id=active')
 @section('contenido')
-<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://media.metrolatam.com/2020/05/08/carnesauno839509-cacdfc331dae7d9f534ee64b0de18387-1200x800.jpg" class="d-block w-100 h-90" alt="" >
+            <div class="carousel-caption d-none d-md-block">
+            <h5>Carnes</h5>
+            <p>Las mejores carnes de Roatan</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://comerbeber.com/archivos/styles/xlarge/public/imagen/2018/05/lacteos_as_175247677.jpg?itok=HQ_HiA5q" class="d-block w-100 h-90" alt="">
+            <div class="carousel-caption d-none d-md-block">
+            <h5>Lacteos</h5>
+            <p>Para ti que te encanta la leche</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://d1uz88p17r663j.cloudfront.net/resized/24C96B76-811C-6377-B9D8-FF0000673B69-490x252-b-min_1200_600.png" class="d-block w-100 h-90" alt="">
+            <div class="carousel-caption d-none d-md-block">
+            <h5>Panaderia</h5>
+            <p>El mejor pan</p>
+            </div>
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+        </button>
     </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="https://media.metrolatam.com/2020/05/08/carnesauno839509-cacdfc331dae7d9f534ee64b0de18387-1200x800.jpg" class="d-block w-100 h-90" alt="" >
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Carnes</h5>
-          <p>Las mejores carnes de Roatan</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="https://comerbeber.com/archivos/styles/xlarge/public/imagen/2018/05/lacteos_as_175247677.jpg?itok=HQ_HiA5q" class="d-block w-100 h-90" alt="">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Lacteos</h5>
-          <p>Para ti que te encanta la leche</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="https://d1uz88p17r663j.cloudfront.net/resized/24C96B76-811C-6377-B9D8-FF0000673B69-490x252-b-min_1200_600.png" class="d-block w-100 h-90" alt="">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Panaderia</h5>
-          <p>El mejor pan</p>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
     <div class="container categorias" style="margin-top:50px">
         <h2 class="text-center">Algunos de Nuestros Productos</h2>
 
