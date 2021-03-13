@@ -65,7 +65,7 @@ a:hover {
 }
 /*Registrarse*/
 .btn-danger {
-  margin-right: 142px;
+  margin-right: 15vh;
   margin-left: 16px;
   padding-left: 30px;
   padding-right: 30px;
@@ -79,10 +79,59 @@ a:hover {
   background-color: #ffc107;
 }
 #titulo {
-  margin-left: 122px;
   width: 40%;
   font-size: 30px;
 }
 #active {
   background-color: #ffc107;
 }
+
+@media(max-width:450px){
+  #titulo{
+    margin-top: 8px;
+    font-size: 10px;
+    margin-left: 10px;
+  }
+  .btn-primary,
+  .btn-secondary,
+  .btn-success,
+  .btn-warning,
+  .btn-danger {
+    margin-top: 10px;
+    font-size: 8px;
+    box-shadow: 0px 3px 6px #0000003f;
+  }
+  .btn-warning {
+    padding-left: 7px;
+    padding-right: 6px;
+  }
+  /*Productos*/
+  .btn-secondary {
+    margin-left: 8px;
+    padding-left: 9px;
+    padding-right: 9px;
+  }
+  /*Blog*/
+  .btn-success {
+    margin-left: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+/*Acercade*/
+  .btn-primary {
+    padding-left: 5px;
+    padding-right: 4px;
+  }
+  /*Registrarse*/
+  .btn-danger {
+    margin-right: 10px;
+    margin-left: 8px;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+  }
+  #navbar{
+    width: 100%;
+    height: 50px;
+  }
+}
+
