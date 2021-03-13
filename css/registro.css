@@ -20,11 +20,6 @@ body {
   background-color: var(--dark-x);
 }
 
-<<<<<<< HEAD:css/registro.css
-.container-form
-{
-    margin: 150px 0 100px 0;
-=======
 .btn {
   min-height: 3.125rem;
   font-weight: 600;
@@ -33,38 +28,12 @@ body {
 .form-control {
   min-height: 3.125rem;
   line-height: initial;
->>>>>>> 34cab153ebcc9847de9dc928ac9c9f63ef0ffb5d:public_html/registro.css
 }
 .form-control:focus {
   background-color: var(--dark-x);
   outline: none;
 }
 
-<<<<<<< HEAD:css/registro.css
-.form-horizontal
-{
-    border: 2px solid rgba(0,0,0,0.6);
-    border-radius: 15px;
-    padding:50px;
-    width: 50%;
-    margin: 0 auto;
-}
-.form-control
-{
-    width:100%;
-}
-.btn-info{
-    margin: 0 auto;
-}
-.col-sm-offset-2{
-    justify-content: center;
-    align-items: center;
-    margin:0;
-    display: flex;
-    width: 100%;
-    padding: 0;
-}
-=======
 .img-1 {
   background-image: url("https://i.pinimg.com/originals/6c/f1/c0/6cf1c0f237987725668b0b12e722a8cc.jpg");
   background-size: cover;
@@ -76,4 +45,3 @@ body {
   background-size: cover;
   background-position: center;
 }
->>>>>>> 34cab153ebcc9847de9dc928ac9c9f63ef0ffb5d:public_html/registro.css
