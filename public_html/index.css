@@ -1,0 +1,29 @@
+.categorias .img-responsive {
+  height: 250px;
+  width: 400px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 6px black;
+}
+.h-90 {
+  height: 90vh;
+}
+.card {
+  margin-bottom: 10px;
+  border: 0px;
+  box-shadow: 2px 2px 6px black;
+}
+
+.card-img {
+  height: 300px;
+}
+.card-img-overlay {
+  transform: translateX(100%);
+  transition: all 0.5s;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: none;
+}
+.card:hover .card-img-overlay {
+  transform: translateX(0);
+  display: flex;
+}
