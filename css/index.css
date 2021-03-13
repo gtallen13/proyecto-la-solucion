@@ -18,9 +18,7 @@
 .card-img {
   height: 300px;
 }
-.car-imag-pro {
-  height: 300px;
-}
+
 .card-img-overlay {
   transform: translateX(100%);
   transition: all 0.5s;
