@@ -25,6 +25,7 @@
 }
 .col-sm {
   margin-bottom: 25px !important;
+  transition: all .7s;
 }
 .titulo-span {
   font-size: 20px;
@@ -33,4 +34,9 @@
 .card-img-top {
   height: 40vh;
   width: 100%;
+}
+
+
+.col-sm:hover{
+  transform: scale(1.02);
 }
