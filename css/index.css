@@ -44,7 +44,7 @@
   width: 60%;
 }
 .container-proveedores {
-  margin-top: 30px;
+  margin: 30px 0 30px 0;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -59,7 +59,7 @@
   align-items: center;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
   .row-proveedores {
     display: grid;
     grid-template-columns: 1fr 1fr;
