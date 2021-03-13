@@ -27,3 +27,12 @@
   transform: translateX(0);
   visibility: visible;
 }
+.collage-images{
+  width: auto;
+  height: auto;
+}
+
+.container .img-responsive{
+ height: 15vh;
+ width: 20vh; 
+}
