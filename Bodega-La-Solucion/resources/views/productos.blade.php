@@ -8,176 +8,204 @@
     <div class="container" id="alimentos">
         <!--Granos -->
         <div class="container-fluid" id="granos">
-            <h2>Granos</h2>
-            <div class="col-xs-3">
-                <div class="container-productos">
-                    <h3>Azucar por Libra</h3>
-                    <img src="https://www.seas.es/blog/wp-content/uploads/2013/01/azucar368.png" class="img-responsive"
-                        width="250" height="250" />
-                    <p>Precio: L.30 </p>
+            <h2>Granos</h2>  
+            <div class="row">
+                    <div class="col-sm">
+                        <div class="card">
+                            <img src="https://www.seas.es/blog/wp-content/uploads/2013/01/azucar368.png"
+                                class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h3>Azucar <span class="titulo-span"><br>Por libra</span></h3>
+                                <p class="card-text">Precio: L. 10</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="card">
+                            <img src="https://lh3.googleusercontent.com/proxy/XDEji_3CWv4Qv-f849Ui03CVQqIGOJ8EnK_NP2ssQys6C56-HLD6LDaiD0UU6LxqY4RLaBiJoApzp2DDqL4QvxG2HyMnUUB9khg0IxBekw6YHFg5YS_3Z73gWoxwrMZaB-8dRasgh8A"
+                                class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h3>Arroz Progreso <span class="titulo-span"><br>Presentaciones varias</span></h3>
+                                <p class="card-text">Precio: L. 13</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="card">
+                            <img src="https://www.teleprogreso.tv/wp-content/uploads/2020/02/ARROZ-EN-QUINTALES.jpg"
+                                class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h3>Arroz Por libra<span class="titulo-span"><br></span></h3>
+                                <p class="card-text">Precio: L. 11</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-xs-3">
-                <div class="container-productos">
-                    <h3>Arroz Progreso</h3>
-                    <img src="https://lh3.googleusercontent.com/proxy/CFhQBvVSrSAa9cr4PYyue-3EuU3cxdqZZUHliEDi47Ept1eXOw8pEe6dnxTf38Bwv54NucvjoeYyu_vSrDeKvo0WMWYsJHeMlka3W6bpsLFe4c99IR_k0vqPXW90srLcvJyIiUy0pfw"
-                        class="img-responsive" width="250" height="250" />
-                    <p>Precio: L.30 </p>
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="card">
+                            <img src="https://media.istockphoto.com/photos/sack-of-red-dry-kidney-beans-at-traditional-vegetable-market-picture-id1150073830?k=6&m=1150073830&s=170667a&w=0&h=oIL2jlZ41DskDoE5-A9sOc57jLIsFE2Mwtm1-F4N9zw="
+                                class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h3>Frijoles</h3>
+                                <p class="card-text">Precio: L. 14/libra</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="card">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL35N4quVVk1chtqeZKK6gza9k3gqsqo355g&usqp=CAU"
+                                class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h3>Maiz en lata</h3>
+                                <p class="card-text">Precio: L. 25</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="card">
+                            <img src="https://images-na.ssl-images-amazon.com/images/I/81hcZkJy%2BYL._SX425_PIbundle-12,TopRight,0,0_AA425SH20_.jpg"
+                                class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h3>Verduras Mixtas en lata</h3>
+                                <p class="card-text">Precio: L. 35</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-xs-3">
-                <div class="container-productos">
-                    <h3>Arroz por Libra</h3>
-                    <img src="https://lh3.googleusercontent.com/proxy/A6glPTr3HnoVvN9KvZfmxhXScJWY08XZf8AQF6JLnPBCiqtI8LBoM6SQB2UNquzrdPUvm6riHDWkJOnUVeEiagH0ZmK6shvOLElxAQc989FcW12cL6kH"
-                        class="img-responsive" width="250" height="250" />
-                    <p>Precio: L.30 </p>
-                </div>
-            </div>
-            <div class="col-xs-3">
-                <div class="container-productos">
-                    <h3>Frijoles por Libra</h3>
-                    <img src="https://media.istockphoto.com/photos/sack-of-red-dry-kidney-beans-at-traditional-vegetable-market-picture-id1150073830?k=6&m=1150073830&s=170667a&w=0&h=oIL2jlZ41DskDoE5-A9sOc57jLIsFE2Mwtm1-F4N9zw="
-                        class="img-responsive" width="250" height="250" />
-                    <p>Precio: L.30 </p>
-                </div>
-            </div>
-            <div class="clearfix"></div>
-            <div class="col-xs-3">
-                <div class="container-productos">
-                    <h3>Chicharos</h3>
-                    <img src="https://dam.cocinafacil.com.mx/wp-content/uploads/2018/03/STMetodo-para-sacar-los-chicharos-de-sus-vainas.jpg"
-                        class="img-responsive" width="250" height="250" />
-                    <p>Precio: L.30 </p>
-                </div>
-            </div>
-            <div class="col-xs-3">
-                <div class="container-productos">
-                    <h3>Garbanzos</h3>
-                    <img src="https://www.recetin.com/wp-content/uploads/2013/09/garbanzos.jpg" class="img-responsive"
-                        width="250" height="250" />
-                    <p>Precio: L.30 </p>
-                </div>
-            </div>
-            <div class="col-xs-3">
-                <div class="container-productos">
-                    <h3>Arroz Progreso</h3>
-                    <img src="https://lh3.googleusercontent.com/proxy/CFhQBvVSrSAa9cr4PYyue-3EuU3cxdqZZUHliEDi47Ept1eXOw8pEe6dnxTf38Bwv54NucvjoeYyu_vSrDeKvo0WMWYsJHeMlka3W6bpsLFe4c99IR_k0vqPXW90srLcvJyIiUy0pfw"
-                        class="img-responsive" width="250" height="250" />
-                    <p>Precio: L.30 </p>
-                </div>
-            </div>
-            <div class="col-xs-3">
-                <div class="container-productos">
-                    <h3>Maiz</h3>
-                    <img src="https://www.saborusa.com/wp-content/uploads/2019/10/Conoce-los-beneficios-del-ma%C3%ADz-en-la-dieta-de-los-ni%C3%B1os-1.png"
-                        class="img-responsive" width="250" height="250" />
-                    <p>Precio: L.30 </p>
-                </div>
-            </div>
         </div>
         <!--Frutas -->
         <div class="container-fluid" id="frutas">
             <h2>Frutas</h2>
-            <div class="col-xs-3">
-                <div class="container-productos">
-                    <h3>Bananas por Libra</h3>
-                    <img src="https://modernfarmer.com/wp-content/uploads/2018/02/supermarket-food-waste-bananas-1200x930.jpg"
-                        class="img-responsive" width="250" height="250" />
-                    <p>Precio: L.30 </p>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card">
+                        <img src="https://modernfarmer.com/wp-content/uploads/2018/02/supermarket-food-waste-bananas-1200x930.jpg"
+                            class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h3>Bananos <span class="titulo-span"><br>Por libra</span></h3>
+                            <p class="card-text">Precio: L. 9</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card">
+                        <img src="https://i.ytimg.com/vi/GGXwy0_fF24/maxresdefault.jpg"
+                            class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h3>Tomates <span class="titulo-span"><br>Por libra</span></h3>
+                            <p class="card-text">Precio: L. 15/libra</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card">
+                        <img src="https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2018/09/14181939/Sancion-en-supermercado-cubano-por-venta-de-15-mil-manzanas-a-un-cliente.jpg"
+                            class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h3>Manzanas <span class="titulo-span"><br></span></h3>
+                            <p class="card-text">Precio: L. 15</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-xs-3">
-                <div class="container-productos">
-                    <h3>Tomates por Libra</h3>
-                    <img src="https://i.ytimg.com/vi/GGXwy0_fF24/maxresdefault.jpg" class="img-responsive" width="250"
-                        height="250" />
-                    <p>Precio: L.30 </p>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card">
+                        <img src="https://thumbs.dreamstime.com/b/sand%C3%ADa-y-melocotones-en-venta-un-supermercado-rusia-verduras-frutas-el-contador-152150372.jpg"
+                            class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h3>Sandias</h3>
+                            <p class="card-text">Precio: L. 55</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card">
+                        <img src="https://tiempo.hn/wp-content/uploads/2020/08/peras-1.jpg"
+                            class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h3>Peras</h3>
+                            <p class="card-text">Precio: L. 15</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card">
+                        <img src="https://animalgourmet.com/wp-content/uploads/2019/06/apricots-3433818_1920.jpg"
+                            class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h3>Duraznos</h3>
+                            <p class="card-text">Precio: L. 14/libra</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-xs-3">
-                <div class="container-productos">
-                    <h3>Manzanas</h3>
-                    <img src="https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2018/09/14181939/Sancion-en-supermercado-cubano-por-venta-de-15-mil-manzanas-a-un-cliente.jpg"
-                        class="img-responsive" width="250" height="250" />
-                    <p>Precio: L.30 </p>
-                </div>
-            </div>
-            <div class="col-xs-3">
-                <div class="container-productos">
-                    <h3>Sandias</h3>
-                    <img src="https://thumbs.dreamstime.com/b/sand%C3%ADa-y-melocotones-en-venta-un-supermercado-rusia-verduras-frutas-el-contador-152150372.jpg"
-                        class="img-responsive" width="250" height="250" />
-                    <p>Precio: L.30 </p>
-                </div>
-            </div>
-            <div class="clearfix"></div>
         </div>
         <!-- Verduras -->
         <div class="container-fluid" id="frutas">
-            <h2>Verduras</h2>
-            <div class="col-xs-3">
-                <div class="container-productos">
-                    <h3>Pepinos</h3>
+            <h2>Verduras</h2>           
+        <div class="row">
+            <div class="col-sm">
+                <div class="card">
                     <img src="https://ep01.epimg.net/elpais/imagenes/2020/04/08/buenavida/1586339161_885331_1586339382_noticia_normal.jpg"
-                        class="img-responsive" width="250" height="250" />
-                    <p>Precio: L.30 </p>
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h3>Pepinos <span class="titulo-span"></span></h3>
+                        <p class="card-text">Precio: L. 15</p>
+                    </div>
                 </div>
             </div>
-            <div class="col-xs-3">
-                <div class="container-productos">
-                    <h3>Lechuga</h3>
+            <div class="col-sm">
+                <div class="card">
                     <img src="https://www.soycorredor.es/uploads/s1/42/74/15/5c18c13a0ce694154c8b4579-nutricion-en-el-running-la-lechuga.jpeg"
-                        class="img-responsive" width="250" height="250" />
-                    <p>Precio: L.30 </p>
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h3>Lechuga <span class="titulo-span"><br></span></h3>
+                        <p class="card-text">Precio: L. 15/libra</p>
+                    </div>
                 </div>
             </div>
-            <div class="col-xs-3">
-                <div class="container-productos">
-                    <h3>Repollo</h3>
+            <div class="col-sm">
+                <div class="card">
                     <img src="https://img.vixdata.io/pd/jpg-large/es/sites/default/files/imj/vivirsalud/4/4-sorprendentes-beneficios-del-repollo-para-la-salud-1.jpg"
-                        class="img-responsive" width="250" height="250" />
-                    <p>Precio: L.30 </p>
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h3>Repollo <span class="titulo-span"><br></span></h3>
+                        <p class="card-text">Precio: L. 35</p>
+                    </div>
                 </div>
             </div>
-            <div class="col-xs-3">
-                <div class="container-productos">
-                    <h3>Cilantro</h3>
-                    <img src="https://images.cookforyourlife.org/wp-content/uploads/2016/11/cilantro.jpg"
-                        class="img-responsive" width="250" height="250" />
-                    <p>Precio: L.30 </p>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <div class="card">
+                    <img src="https://www.mercadoabastospanama.com/images/thumbs/0000070_culantro-mazo_550.jpeg"
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h3>Culantro</h3>
+                        <p class="card-text">Precio: L. 15/mazo</p>
+                    </div>
                 </div>
             </div>
-            <div class="clearfix"></div>
-            <div class="col-xs-3">
-                <div class="container-productos">
-                    <h3>Culantro</h3>
-                    <img src="https://www.lahuertadeldia.com/wp-content/uploads/2017/07/culantro.jpeg"
-                        class="img-responsive" width="250" height="250" />
-                    <p>Precio: L.30 </p>
-                </div>
-            </div>
-            <div class="col-xs-3">
-                <div class="container-productos">
-                    <h3>Apio</h3>
-                    <img src="https://www.natursan.net/wp-content/apio-1.jpg" class="img-responsive" width="250"
-                        height="250" />
-                    <p>Precio: L.30 </p>
-                </div>
-            </div>
-            <div class="col-xs-3">
-                <div class="container-productos">
-                    <h3>Chile Dulce</h3>
+            <div class="col-sm">
+                <div class="card">
                     <img src="https://latienditacr.com/wp-content/uploads/2020/06/Chile-dulce.jpg"
-                        class="img-responsive" width="250" height="250" />
-                    <p>Precio: L.30 </p>
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h3>Chile Dulce</h3>
+                        <p class="card-text">Precio: L. 12.50</p>
+                    </div>
                 </div>
             </div>
-            <div class="col-xs-3">
-                <div class="container-productos">
-                    <h3>Chile Cabro</h3>
+            <div class="col-sm">
+                <div class="card">
                     <img src="https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2018/11/es-bueno-comer-chile-habanero.jpg"
-                        class="img-responsive" width="250" height="250" />
-                    <p>Precio: L.30 </p>
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h3>Chile Cabro</h3>
+                        <p class="card-text">Precio: L. 3 c/u</p>
+                    </div>
                 </div>
             </div>
 
@@ -186,77 +214,142 @@
     <!--Bebidas-->
     <div class="container" id="bebidas">
         <h2>Bebidas</h2>
-        <div class="container-fluid" id="refrescos">
-            <div class="col-xs-3">
-                <div class="container-productos">
-                    <h3>Coca-Cola</h3>
+        <h3>Refrescos</h3>
+        
+        <div class="row">
+            <div class="col-sm">
+                <div class="card">
                     <img src="https://i1.wp.com/www.capitaledomex.com.mx/wp-content/uploads/2020/10/LYNXMPEG9L0UK.jpg?fit=768%2C555&ssl=1"
-                        class="img-responsive" width="250" height="250" />
-                    <p>Precio: L.30 </p>
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h3>Coca Cola <span class="titulo-span"><br>(Tamaños varios)</span></h3>
+                        <p class="card-text">Precio: L. 15</p>
+                    </div>
                 </div>
             </div>
-            <div class="col-xs-3">
-                <div class="container-productos">
-                    <h3>Pepsi</h3>
+            <div class="col-sm">
+                <div class="card">
                     <img src="https://thumbs.dreamstime.com/b/el-jugo-de-pepsi-cola-bebe-en-venta-estante-del-supermercado-136503253.jpg"
-                        class="img-responsive" width="250" height="250" />
-                    <p>Precio: L.30 </p>
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h3>PEPSI <span class="titulo-span"><br>(Tamaños varios)</span></h3>
+                        <p class="card-text">Precio: L. 15</p>
+                    </div>
                 </div>
             </div>
-            <div class="col-xs-3">
-                <div class="container-productos">
-                    <h3>Té Lipton</h3>
-                    <img src="https://supermercadomoises.cl/wp-content/uploads/2020/07/ICE-LIPTON-TEA-LIMON-1.5L.jpg"
-                        class="img-responsive" width="250" height="250" />
-                    <p>Precio: L.30 </p>
+            <div class="col-sm">
+                <div class="card">
+                    <img src="https://www.esan.edu.pe/apuntes-empresariales/2016/11/14/bigcola_twitter.jpg"
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h3>Big Cola <span class="titulo-span"><br>(Tamaños varios)</span></h3>
+                        <p class="card-text">Precio: L.10</p>
+                    </div>
                 </div>
             </div>
-            <div class="col-xs-3">
-                <div class="container-productos">
-                    <h3>Sprite</h3>
-                    <img src="https://balu.com.ar/wp-content/uploads/2020/11/sprite-2-25l1-f8e05cb7086a45ae1215484393506808-480-0.jpg"
-                        class="img-responsive" width="250" height="250" />
-                    <p>Precio: L.30 </p>
+        </div>
+        <h3>Jugos</h3>
+        <div class="row">
+            <div class="col-sm">
+                <div class="card">
+                    <img src="https://i.ytimg.com/vi/1IxussheTOo/maxresdefault.jpg"
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h3>Jugos Leyde <span class="titulo-span"><br>(Sabores varios)</span></h3>
+                        <p class="card-text">Precio: L. 15</p>
+                    </div>
                 </div>
             </div>
-
+            <div class="col-sm">
+                <div class="card">
+                    <img src="http://d26m4ikkajfmz.cloudfront.net/wp-content/uploads/2019/06/sula-el-pais-hn.jpg"
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h3>Jugos Sula<span class="titulo-span"><br>(Sabores varios)</span></h3>
+                        <p class="card-text">Precio: L. 15</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card">
+                    <img src="https://jugosdelvalle.com.mx/wp-content/uploads/2020/10/PS-DELVALLE-min.png"
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h3>Jugos del Valle<span class="titulo-span"><br>(Sabores varios)</span></h3>
+                        <p class="card-text">Precio: L.10</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <!--Utensilios-->
     <div class="container" id="utensilios">
+
+        <!--Cocina-->
         <!--Cocina-->
         <h2>Cocina</h2>
-        <div class="container-fluid" id="cocina">
-            <div class="col-xs-3">
-                <div class="container-productos">
-                    <h3>Sartenes</h3>
+    
+        <div class="row">
+            <div class="col-sm">
+                <div class="card">
                     <img src="https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201801/05/00107315301023____1__640x640.jpg"
-                        class="img-responsive" width="250" height="250" />
-                    <p>Precio: L.30 </p>
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h3>Sartenes <span class="titulo-span"><br>(Tamaños varios)</span></h3>
+                        <p class="card-text">Precio: L. 100</p>
+                    </div>
                 </div>
             </div>
-            <div class="col-xs-3">
-                <div class="container-productos">
-                    <h3>Cuchillos</h3>
-                    <img src="https://ss623.liverpool.com.mx/xl/1077085064.jpg" class="img-responsive" width="250"
-                        height="250" />
-                    <p>Precio: L.30 </p>
+            <div class="col-sm">
+                <div class="card">
+                    <img src="https://ss623.liverpool.com.mx/xl/1077085064.jpg"
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h3>Cuchillos <span class="titulo-span"><br>Cachas de madera y blanca</span></h3>
+                        <p class="card-text">Precio: L. 45</p>
+                    </div>
                 </div>
             </div>
-            <div class="col-xs-3">
-                <div class="container-productos">
-                    <h3>Batidor </h3>
+            <div class="col-sm">
+                <div class="card">
                     <img src="https://images-na.ssl-images-amazon.com/images/I/71zctKjf%2BUL._AC_SL1500_.jpg"
-                        class="img-responsive" width="250" height="250" />
-                    <p>Precio: L.30 </p>
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h3>Batidores <span class="titulo-span"><br></span></h3>
+                        <p class="card-text">Precio: L. 75</p>
+                    </div>
                 </div>
             </div>
-            <div class="col-xs-3">
-                <div class="container-productos">
-                    <h3>Rodillo</h3>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <div class="card">
                     <img src="https://www.ikea.com/ca/en/images/products/magasin-rolling-pin__0711093_PE727978_S5.JPG"
-                        class="img-responsive" width="250" height="250" />
-                    <p>Precio: L.30 </p>
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h3>Rodillo</h3>
+                        <p class="card-text">Precio: L. 75</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card">
+                    <img src="https://diunsa.vteximg.com.br/arquivos/ids/196533-292-292/BLSTPYG1209B-1.jpg?v=637432391289470000"
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h3>Licuadoras</h3>
+                        <p class="card-text">Precio: L. 175</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card">
+                    <img src="https://falabella.scene7.com/is/image/FalabellaCO/4162049_1?q=i?wid=800&hei=800&qlt=70"
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h3>Estufas de gas de mesa</h3>
+                        <p class="card-text">Precio: L. 275</p>
+                    </div>
                 </div>
             </div>
         </div>
