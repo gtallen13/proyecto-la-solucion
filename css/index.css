@@ -33,10 +33,6 @@
   width: auto;
   height: auto;
 }
-.img-responsive {
-  height: 15vh;
-  width: 20vh;
-}
 .img-fluid {
   height: 60%;
   width: 60%;

@@ -23,12 +23,13 @@ li {
   justify-content: flex-end;
 }
 .navbarul {
-  display: flex;
   padding: 0;
-  justify-content: space-around;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
 }
 .navbarul li {
-  margin: 5px;
+  margin-right: 8px;
 }
 
 .btn-primary,
@@ -81,6 +82,13 @@ nav .icon-burger .line {
 }
 
 @media screen and (max-width: 768px) {
+  #navbar {
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    position: fixed;
+  }
   nav #titulo {
     float: none;
     width: auto;
@@ -104,7 +112,10 @@ nav .icon-burger .line {
     transition: all 0.5s ease-in-out;
   }
 
-  nav #links a {
+  nav #links li {
+    margin-left: 15px;
+  }
+  nav #links li a {
     font-size: 20px;
   }
   nav :checked ~ #links {
