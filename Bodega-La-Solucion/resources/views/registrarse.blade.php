@@ -63,7 +63,7 @@
                 <!--No tocar-->
                 <div class="text-center px-lg-5 pt-lg-3 pb-lg-4 p-4 mt-auto w-100">
                     <p class="d-inline-block mb-0">¿Le gustaria volver al inicio de sesión?</p> <a
-                        href="./registro.html" class="text-light font-weight-bold text-decoration-none">Login</a>
+                        href="{{url('registro')}}" class="text-light font-weight-bold text-decoration-none">Login</a>
                 </div>
             </div>
         </div>
