@@ -16,18 +16,22 @@
 <body class="hi">
     <!-- Fixed navbar -->
     <nav id="navbar">
+        <input id="nav-toggle" type="checkbox">
         <h1 id="titulo">La Solución</h1>
-        <ul class="navbar-left">
-            <button type="button" id="active" class="btn btn-warning"><a href="./index.html">Inicio</a></button>
-            <button type="button" class="btn btn-secondary"><a href="./productos.html">Productos</a></button>
-            <button type="button" class="btn btn-success"><a href="./blog.html">Blog</a></button>
+        <ul class="navbarul" id="links">
+            <li><button type="button" id="active" class="btn btn-warning"><a href="./index.html">Inicio</a></button></li>
+            <li><button type="button" class="btn btn-secondary"><a href="./productos.html">Productos</a></button></li>
+            <li><button type="button" class="btn btn-success"><a href="./blog.html">Blog</a></button></li>
+            <li><button type="button" class="btn btn-primary"><a href="./acercade.html"> Acerca De</a></button></li>
+            <li><button type="button" class="btn btn-danger"><a href="./registro.html">Registrarse</a></button></li>
         </ul>
-        <ul class="navbar-right">
-            <button type="button" class="btn btn-primary"><a href="./acercade.html"> Acerca De</a></button>
-            <button type="button" class="btn btn-danger"><a href="./registro.html">Registrarse</a></button>
-        </ul>
+        <label for="nav-toggle" class="icon-burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </label>
     </nav>
-   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
