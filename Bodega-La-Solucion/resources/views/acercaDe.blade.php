@@ -29,55 +29,53 @@
             </p>
         </div>
     </div>
-
+  
     <div class="outer-container">
 
-    <div class="about-section">
-    </div>
     <div class="inner-container">
 
             <div class="col-md-12">
                 <div class="well well-sm">
-                    <form class="form-vertical" method="post">
+                    <form class="form-vertical" method="post" action={{route('acercaDe')}}>
                         <fieldset>
                             <legend class="text-center header">Contactanos</legend>
     
                             <div class="form-group">
-                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
                                 <div class="col-md-12">
                                     <input id="fname" name="name" type="text" placeholder="nombre" class="form-control">
                                 </div>
                             </div>
                             <div class="form-group">
-                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
                                 <div class="col-md-12">
+                                    <br>
                                     <input id="lname" name="name" type="text" placeholder="Apellido" class="form-control">
                                 </div>
                             </div>
     
                             <div class="form-group">
-                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
                                 <div class="col-md-12">
+                                    <br>
                                     <input id="email" name="email" type="text" placeholder="Email " class="form-control">
                                 </div>
                             </div>
     
                             <div class="form-group">
-                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
                                 <div class="col-md-12">
+                                    <br>
                                     <input id="phone" name="phone" type="text" placeholder="Telefono" class="form-control">
                                 </div>
                             </div>
     
                             <div class="form-group">
-                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
                                 <div class="col-md-12">
+                                    <br>
                                     <textarea class="form-control" id="message" name="message" placeholder="Escribe tu mensaje aqui" rows="7"></textarea>
                                 </div>
                             </div>
     
                             <div class="form-group">
                                 <div class="col-md-12 text-center">
+                                    <br>
                                     <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
                                 </div>
                             </div>
@@ -87,6 +85,11 @@
                                 </div>
 
                             </div>
+                            
+    <div class="about-section">
+        <h2>Contactanos</h2>
     </div>
+    </div>
+
 </div>
 @endsection
