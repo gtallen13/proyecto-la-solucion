@@ -73,38 +73,106 @@
                         </div>
                     </div>
                 </div>
-        </div>
-        <!--Frutas -->
+            </div>
+            <!--Frutas -->
+            <div class="container-fluid" id="frutas">
+                <h2>Frutas</h2>
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="card">
+                            <img src="https://modernfarmer.com/wp-content/uploads/2018/02/supermarket-food-waste-bananas-1200x930.jpg"
+                                class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h3>Bananos <span class="titulo-span"><br>Por libra</span></h3>
+                                <p class="card-text">Precio: L. 9</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="card">
+                            <img src="https://i.ytimg.com/vi/GGXwy0_fF24/maxresdefault.jpg"
+                                class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h3>Tomates <span class="titulo-span"><br>Por libra</span></h3>
+                                <p class="card-text">Precio: L. 15/libra</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="card">
+                            <img src="https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2018/09/14181939/Sancion-en-supermercado-cubano-por-venta-de-15-mil-manzanas-a-un-cliente.jpg"
+                                class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h3>Manzanas <span class="titulo-span"><br></span></h3>
+                                <p class="card-text">Precio: L. 15</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="card">
+                            <img src="https://thumbs.dreamstime.com/b/sand%C3%ADa-y-melocotones-en-venta-un-supermercado-rusia-verduras-frutas-el-contador-152150372.jpg"
+                                class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h3>Sandias</h3>
+                                <p class="card-text">Precio: L. 55</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="card">
+                            <img src="https://tiempo.hn/wp-content/uploads/2020/08/peras-1.jpg"
+                                class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h3>Peras</h3>
+                                <p class="card-text">Precio: L. 15</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="card">
+                            <img src="https://animalgourmet.com/wp-content/uploads/2019/06/apricots-3433818_1920.jpg"
+                                class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h3>Duraznos</h3>
+                                <p class="card-text">Precio: L. 14/libra</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- Verduras -->
         <div class="container-fluid" id="frutas">
-            <h2>Frutas</h2>
+            <h2>Verduras</h2>           
             <div class="row">
                 <div class="col-sm">
                     <div class="card">
-                        <img src="https://modernfarmer.com/wp-content/uploads/2018/02/supermarket-food-waste-bananas-1200x930.jpg"
+                        <img src="https://ep01.epimg.net/elpais/imagenes/2020/04/08/buenavida/1586339161_885331_1586339382_noticia_normal.jpg"
                             class="card-img-top" alt="">
                         <div class="card-body">
-                            <h3>Bananos <span class="titulo-span"><br>Por libra</span></h3>
-                            <p class="card-text">Precio: L. 9</p>
+                            <h3>Pepinos <span class="titulo-span"></span></h3>
+                            <p class="card-text">Precio: L. 15</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm">
                     <div class="card">
-                        <img src="https://i.ytimg.com/vi/GGXwy0_fF24/maxresdefault.jpg"
+                        <img src="https://www.soycorredor.es/uploads/s1/42/74/15/5c18c13a0ce694154c8b4579-nutricion-en-el-running-la-lechuga.jpeg"
                             class="card-img-top" alt="">
                         <div class="card-body">
-                            <h3>Tomates <span class="titulo-span"><br>Por libra</span></h3>
+                            <h3>Lechuga <span class="titulo-span"><br></span></h3>
                             <p class="card-text">Precio: L. 15/libra</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm">
                     <div class="card">
-                        <img src="https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2018/09/14181939/Sancion-en-supermercado-cubano-por-venta-de-15-mil-manzanas-a-un-cliente.jpg"
+                        <img src="https://img.vixdata.io/pd/jpg-large/es/sites/default/files/imj/vivirsalud/4/4-sorprendentes-beneficios-del-repollo-para-la-salud-1.jpg"
                             class="card-img-top" alt="">
                         <div class="card-body">
-                            <h3>Manzanas <span class="titulo-span"><br></span></h3>
-                            <p class="card-text">Precio: L. 15</p>
+                            <h3>Repollo <span class="titulo-span"><br></span></h3>
+                            <p class="card-text">Precio: L. 35</p>
                         </div>
                     </div>
                 </div>
@@ -112,103 +180,35 @@
             <div class="row">
                 <div class="col-sm">
                     <div class="card">
-                        <img src="https://thumbs.dreamstime.com/b/sand%C3%ADa-y-melocotones-en-venta-un-supermercado-rusia-verduras-frutas-el-contador-152150372.jpg"
+                        <img src="https://www.mercadoabastospanama.com/images/thumbs/0000070_culantro-mazo_550.jpeg"
                             class="card-img-top" alt="">
                         <div class="card-body">
-                            <h3>Sandias</h3>
-                            <p class="card-text">Precio: L. 55</p>
+                            <h3>Culantro</h3>
+                            <p class="card-text">Precio: L. 15/mazo</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm">
                     <div class="card">
-                        <img src="https://tiempo.hn/wp-content/uploads/2020/08/peras-1.jpg"
+                        <img src="https://latienditacr.com/wp-content/uploads/2020/06/Chile-dulce.jpg"
                             class="card-img-top" alt="">
                         <div class="card-body">
-                            <h3>Peras</h3>
-                            <p class="card-text">Precio: L. 15</p>
+                            <h3>Chile Dulce</h3>
+                            <p class="card-text">Precio: L. 12.50</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm">
                     <div class="card">
-                        <img src="https://animalgourmet.com/wp-content/uploads/2019/06/apricots-3433818_1920.jpg"
+                        <img src="https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2018/11/es-bueno-comer-chile-habanero.jpg"
                             class="card-img-top" alt="">
                         <div class="card-body">
-                            <h3>Duraznos</h3>
-                            <p class="card-text">Precio: L. 14/libra</p>
+                            <h3>Chile Cabro</h3>
+                            <p class="card-text">Precio: L. 3 c/u</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- Verduras -->
-        <div class="container-fluid" id="frutas">
-            <h2>Verduras</h2>           
-        <div class="row">
-            <div class="col-sm">
-                <div class="card">
-                    <img src="https://ep01.epimg.net/elpais/imagenes/2020/04/08/buenavida/1586339161_885331_1586339382_noticia_normal.jpg"
-                        class="card-img-top" alt="">
-                    <div class="card-body">
-                        <h3>Pepinos <span class="titulo-span"></span></h3>
-                        <p class="card-text">Precio: L. 15</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm">
-                <div class="card">
-                    <img src="https://www.soycorredor.es/uploads/s1/42/74/15/5c18c13a0ce694154c8b4579-nutricion-en-el-running-la-lechuga.jpeg"
-                        class="card-img-top" alt="">
-                    <div class="card-body">
-                        <h3>Lechuga <span class="titulo-span"><br></span></h3>
-                        <p class="card-text">Precio: L. 15/libra</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm">
-                <div class="card">
-                    <img src="https://img.vixdata.io/pd/jpg-large/es/sites/default/files/imj/vivirsalud/4/4-sorprendentes-beneficios-del-repollo-para-la-salud-1.jpg"
-                        class="card-img-top" alt="">
-                    <div class="card-body">
-                        <h3>Repollo <span class="titulo-span"><br></span></h3>
-                        <p class="card-text">Precio: L. 35</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm">
-                <div class="card">
-                    <img src="https://www.mercadoabastospanama.com/images/thumbs/0000070_culantro-mazo_550.jpeg"
-                        class="card-img-top" alt="">
-                    <div class="card-body">
-                        <h3>Culantro</h3>
-                        <p class="card-text">Precio: L. 15/mazo</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm">
-                <div class="card">
-                    <img src="https://latienditacr.com/wp-content/uploads/2020/06/Chile-dulce.jpg"
-                        class="card-img-top" alt="">
-                    <div class="card-body">
-                        <h3>Chile Dulce</h3>
-                        <p class="card-text">Precio: L. 12.50</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm">
-                <div class="card">
-                    <img src="https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2018/11/es-bueno-comer-chile-habanero.jpg"
-                        class="card-img-top" alt="">
-                    <div class="card-body">
-                        <h3>Chile Cabro</h3>
-                        <p class="card-text">Precio: L. 3 c/u</p>
-                    </div>
-                </div>
-            </div>
-
         </div>
     </div>
     <!--Bebidas-->
