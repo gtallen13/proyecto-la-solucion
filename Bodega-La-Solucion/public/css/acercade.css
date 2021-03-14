@@ -48,6 +48,9 @@
     text-align: justify;
     margin-bottom: 40px;
 }
+.form-group .btn-primary{
+    width: 50%;
+}
 
 @media screen and (max-width:1000px){
     .about-section{

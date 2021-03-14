@@ -82,13 +82,11 @@
                         </fieldset>
                     </form>
                 </div>
-                                </div>
-
-                            </div>
-                            
-    <div class="about-section">
-        <h2>Contactanos</h2>
-    </div>
+            </div>
+        </div>          
+        <div class="about-section">
+            <h2>Contactanos</h2>
+        </div>
     </div>
 
 </div>
