@@ -30,12 +30,14 @@
                 <div class="px-lg-5 pt-lg-4 pb-lg-3 p-4 mb-auto w-100"></div>
                 <div class="align-self-center w-100 px-lg-5 py-lg-4 p-4">
                     <h1 class="font-weight-bold mb-4" style="text-align: center; padding-bottom: 20px;">Bienvenido</h1>
-                    <form class="mb-5">
+                    <form class="mb-5" method="post" action={{route('registro')}}>
+                        @csrf
                         <div class="mb-4">
                             <label for="exampleInputEmail1" class="form-label font-weight-bold">Correo
                                 Electrónico</label>
                             <input type="email" class="form-control bg-dark-x border-0" id="exampleInputEmail1"
                                 placeholder="Ingresa tu correo electrónico" aria-describedby="emailHelp">
+                                {!!$errors->first("email","<small style='color: red;'>:message</small>")!!}
                         </div>
                         <div class="mb-4">
                             <label for="exampleInputPassword1" class="form-label font-weight-bold">Contraseña</label>

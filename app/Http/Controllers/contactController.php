@@ -37,10 +37,13 @@ class contactController extends Controller
         request()-> validate(
             [
                 'nombre'=>'required',
+                'apellido'=>'required',
                 'email'=>'required',
-    
+                'telefono'=>'required',
+                'mensaje'=>'required'   
             ]
-            );
+        );
+        return "Datos Validados";
     }
 
     /**

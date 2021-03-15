@@ -30,24 +30,28 @@
                 <div class="px-lg-5 pt-lg-4 pb-lg-3 p-4 mb-auto w-100"></div>
                 <div class="align-self-center w-100 px-lg-5 py-lg-4 p-4">
                     <h1 class="font-weight-bold mb-4" style="text-align: center; padding-bottom: 20px;">Regístrate</h1>
-                    <form class="mb-5">
+                    <form class="mb-5" method="post" action={{route('registrarse')}}>
+                        @csrf
                         <div class="mb-4">
                             <label for="exampleInputFullName1" class="form-label font-weight-bold">Nombre
                                 Completo</label>
                             <input type="password" class="form-control bg-dark-x border-0 mb-2"
-                                placeholder="Ingresa tu nombre completo" id="exampleInputPassword1">
+                                placeholder="Ingresa tu nombre completo" id="exampleInputPassword1" name="nombre">
+                                {!!$errors->first("nombre","<small style='color: red;'>:message</small>")!!}
 
                         </div>
                         <div class="mb-4">
                             <label for="exampleInputEmail1" class="form-label font-weight-bold">Correo
                                 Electrónico</label>
                             <input type="email" class="form-control bg-dark-x border-0" id="exampleInputEmail1"
-                                placeholder="Ingresa tu correo electrónico" aria-describedby="emailHelp">
+                                placeholder="Ingresa tu correo electrónico" aria-describedby="emailHelp" name="email">
+                                {!!$errors->first("email","<small style='color: red;'>:message</small>")!!}
+
                         </div>
                         <div class="mb-4">
                             <label for="exampleInputPassword1" class="form-label font-weight-bold">Contraseña</label>
                             <input type="password" class="form-control bg-dark-x border-0 mb-2"
-                                placeholder="Ingresa tu contraseña" id="exampleInputPassword1">
+                                placeholder="Ingresa tu contraseña" id="exampleInputPassword1" >
 
                         </div>
                         <div class="mb-4">

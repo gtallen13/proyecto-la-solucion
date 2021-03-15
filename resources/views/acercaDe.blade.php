@@ -37,18 +37,21 @@
             <div class="col-md-12">
                 <div class="well well-sm">
                     <form class="form-vertical" method="post" action={{route('acercaDe')}}>
+                        @csrf
                         <fieldset>
                             <legend class="text-center header">Contactanos</legend>
     
                             <div class="form-group">
                                 <div class="col-md-12">
-                                    <input id="fname" name="name" type="text" placeholder="nombre" class="form-control">
+                                    <input id="fname" name="nombre" type="text" placeholder="nombre" class="form-control">
+                                    {!!$errors->first("nombre","<small style='color: red;'>:message</small>")!!}
                                 </div>
                             </div>
                             <div class="form-group">
                                 <div class="col-md-12">
                                     <br>
-                                    <input id="lname" name="name" type="text" placeholder="Apellido" class="form-control">
+                                    <input id="lname" name="apellido" type="text" placeholder="Apellido" class="form-control">
+                                    {!!$errors->first("apellido","<small style='color: red;'>:message</small>")!!}
                                 </div>
                             </div>
     
@@ -56,20 +59,25 @@
                                 <div class="col-md-12">
                                     <br>
                                     <input id="email" name="email" type="text" placeholder="Email " class="form-control">
+                                    {!!$errors->first("email","<small style='color: red;'>:message</small>")!!}
+
                                 </div>
                             </div>
     
                             <div class="form-group">
                                 <div class="col-md-12">
                                     <br>
-                                    <input id="phone" name="phone" type="text" placeholder="Telefono" class="form-control">
+                                    <input id="phone" name="telefono" type="text" placeholder="Telefono" class="form-control">
+                                    {!!$errors->first("telefono","<small style='color: red;'>:message</small>")!!}
                                 </div>
                             </div>
     
                             <div class="form-group">
                                 <div class="col-md-12">
                                     <br>
-                                    <textarea class="form-control" id="message" name="message" placeholder="Escribe tu mensaje aqui" rows="7"></textarea>
+                                    <textarea class="form-control" id="message" name="mensaje" placeholder="Escribe tu mensaje aqui" rows="7"></textarea>
+                                    {!!$errors->first("mensaje","<small style='color: red;'>:message</small>")!!}
+
                                 </div>
                             </div>
     
