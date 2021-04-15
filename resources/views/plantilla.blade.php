@@ -26,7 +26,7 @@
             <h1 id="titulo">La Solución</h1>
             <ul class="navbarul" id="links">
                 <li><button type="button" @yield('activeInicio') class="btn btn-warning"><a href="/">Inicio</a></button></li>
-                <li><button type="button" @yield('activeProductos') class="btn btn-secondary"><a href="{{url('productos')}}">Productos</a></button></li>
+                <li><button type="button" @yield('activeProductos') class="btn btn-secondary"><a href="{{url('list')}}">Productos</a></button></li>
                 <li><button type="button" @yield('activeBlog') class="btn btn-success"><a href="#">Blog</a></button></li>
                 <li><button type="button" @yield('activeAcercaDe') class="btn btn-primary"><a href="{{url('acercaDe')}}"> Acerca De</a></button></li>
                 <li><button type="button" @yield('activeRegistro') class="btn btn-danger"><a href="{{url('registro')}}">Registrarse</a></button></li>
