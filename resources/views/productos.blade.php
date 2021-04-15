@@ -6,7 +6,7 @@
 @endsection
 @section('contenido')
     <div class="container" id="alimentos">
-        <!--Granos -->
+        <h1 class="text-center">Productos</h1>
         <div class="container-fluid" id="granos">
             <div class="row">
                 @foreach ($granos as $item)
