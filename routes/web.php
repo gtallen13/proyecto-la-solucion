@@ -33,4 +33,4 @@ Route::get('/registrarse',function (){
 Route::post('acercaDe',('contactController@store'))->name('acercaDe');
 Route::post('registrarse',('contactController@store'))->name('registrarse');
 Route::post('registro',('contactController@store'))->name('registro');
-
+Route::get('/list','Productos@list');
